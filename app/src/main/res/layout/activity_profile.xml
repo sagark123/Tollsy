@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sar.tollsy.ProfileActivity">
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="100dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/textViewUserEmail"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:height="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="USER LOGIN"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="88dp" />
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
